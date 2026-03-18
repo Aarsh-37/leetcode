@@ -80,13 +80,3 @@ Instead of searching again, you "remember" what you've already seen.
 * Time: **O(n)**
 * Space: **O(n)**
 
----
-
-## Summary
-
-| Approach    | Time Complexity | Space Complexity | Key Idea                 |
-| ----------- | --------------- | ---------------- | ------------------------ |
-| Brute Force | O(n²)           | O(1)             | Try all pairs            |
-| Better      | O(n log n)      | O(n)             | Sort + Two Pointers      |
-| Optimal     | O(n)            | O(n)             | Hashing (store & lookup) |
-
